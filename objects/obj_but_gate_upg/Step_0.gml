@@ -1,0 +1,1 @@
+tier_upg_cost = obj_score_engine.gate_tier_upg_cost;

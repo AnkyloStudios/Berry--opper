@@ -1,0 +1,1 @@
+if obj_score_engine.gate_tier >= self_gate_tier {image_alpha = 0.75;}

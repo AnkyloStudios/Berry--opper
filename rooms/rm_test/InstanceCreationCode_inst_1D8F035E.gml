@@ -1,0 +1,1 @@
+self_gate_tier = 3;

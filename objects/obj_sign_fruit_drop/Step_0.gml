@@ -1,0 +1,1 @@
+text = obj_create.create_timer_base/fps;
