@@ -1,5 +1,5 @@
 //Rectangle Rounded Corners
-rad = 50;
+var rad = 50;
 
 //Set Colour
 draw_set_colour(make_color_rgb(204, 165, 88));

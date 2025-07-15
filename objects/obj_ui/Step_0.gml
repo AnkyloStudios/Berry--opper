@@ -3,7 +3,7 @@ if mouse_wheel_down() cam_y += scr_dist;
 if mouse_wheel_up() cam_y -= scr_dist;
 
 //Not scroll too high
-max_y = room_height-view_hport+200
+var max_y = room_height-view_hport+200
 if cam_y < 0 {cam_y = 0;}
 if cam_y > max_y {cam_y = max_y;}
 
