@@ -79,6 +79,7 @@
     {"id":{"name":"obj_ui","path":"objects/obj_ui/obj_ui.yy",},},
     {"id":{"name":"rm_test","path":"rooms/rm_test/rm_test.yy",},},
     {"id":{"name":"draw_text_outline","path":"scripts/draw_text_outline/draw_text_outline.yy",},},
+    {"id":{"name":"scr_cam_runtime","path":"scripts/scr_cam_runtime/scr_cam_runtime.yy",},},
     {"id":{"name":"seq_gate1","path":"sequences/seq_gate1/seq_gate1.yy",},},
     {"id":{"name":"bg_dotted","path":"sprites/bg_dotted/bg_dotted.yy",},},
     {"id":{"name":"bg_paper","path":"sprites/bg_paper/bg_paper.yy",},},

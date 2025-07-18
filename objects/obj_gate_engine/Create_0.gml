@@ -7,4 +7,6 @@ layer_sequence_pause(gate1);
 var _seq = sequence_get(seq_gate1);
 _seq.loopmode = seqplay_oneshot;
 
+//Startup Variables
 
+min_y = -1920
