@@ -2,6 +2,8 @@
 if mouse_wheel_down() cam_y += scr_dist;
 if mouse_wheel_up() cam_y -= scr_dist;
 
+//Min Scroll not too low
+
 //Not scroll too high
 var max_y = room_height-view_hport+200
 if cam_y < 0 {cam_y = 0;}
