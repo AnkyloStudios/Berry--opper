@@ -1,4 +1,3 @@
-/*
 //Scrolling the view
 if mouse_wheel_down() cam_y += scr_dist;
 if mouse_wheel_up() cam_y -= scr_dist;

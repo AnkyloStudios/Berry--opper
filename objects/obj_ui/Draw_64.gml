@@ -1,4 +1,3 @@
-/*
 //Rectangle Rounded Corners
 var rad = 50;
 

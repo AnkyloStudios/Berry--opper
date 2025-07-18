@@ -1,15 +1,32 @@
 function scr_cam_runtime(){
 
+//Calling Variables
 var aspect_ratio = display_get_height() / display_get_width();
-global.res_width = 1080;
-global.res_height = max(1920,global.res_width*aspect_ratio);
+var _w = 1080;
+var _h = 1920;
 
-var _ratio = global.res_width / global.res_height;
-var _display_ratio = display_get_width() / display_get_height();
-
-if (_display_ratio < _ratio){
-    global.res_height = 1920; // Optional
-
-    global.res_width = global.res_height * _display_ratio;
+switch os_type
+{
+    case os_windows:
+    case os_linux:
+    case os_macosx:
+        _w = 1080;
+        _h = 1920;
+        window_set_size(display_get_height()*0.5625,display_get_height());
+        break;
+    case os_android:
+    case os_ios:
+        _w = 1080;
+        _h = max(1920,_w*aspect_ratio);
+        break;
 }
+
+view_enabled = true;
+view_visible[0] = true;
+
+var _cam = camera_create_view(0, 0, _w, _h);
+
+view_camera[0] = _cam;
+view_wport[0] = _w;
+view_hport[0] = _h;
 }
